@@ -1,0 +1,436 @@
+/* background colour of the webpage */
+
+* {
+    background-color: #0a0a0a;
+}
+
+/* navigation bar properties */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 3px;
+}
+
+/* navigation button properties */
+
+.nav_button {
+    padding: 10px;
+}
+
+/* navigation links properties */
+
+.nav_links {
+    margin: 2px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* display sneakers section properties */
+
+#main_section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin: 285px 2px;
+}
+
+/* back button properties */
+
+#back_button {
+    transform: rotate(180deg);
+}
+
+/* shoes image properties */
+
+#air_max {
+    max-width: 700px;
+    position: absolute;
+    max-height: auto;
+    background-color: #00000000;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-22.5deg);
+}
+
+/* background solid heading properties */
+
+#back_heading {
+    font-family: Ubuntu;
+    position: absolute;
+    font-size: 185px;
+    font-weight: 500;
+    color: white;
+    background-color: #00000000;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* front outline heading properties */
+
+#front_heading {
+    font-family: Ubuntu;
+    position: absolute;
+    font-size: 185px;
+    font-weight: 500;
+    color: #00000000;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    z-index: 3;
+    background-color: #00000000;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#shadow_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+#shadow{
+    width: 550px;
+}
+
+#main_prod_name{
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+#prod_spec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -23px;
+}
+
+#prod_spec_span{
+    display: flex;
+    align-items: center;
+}
+
+#just_do_it{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    font-family: Ubuntu;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+#price{
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+#add_to_cart{
+    background-color: white;
+    margin-left: 35px;
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 12px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 13px;
+    font-style: italic;
+}
+
+#main_grid_div{
+    display: flex;
+    flex-direction: row;
+    margin: 200px 60px;
+    justify-content: center;
+}
+
+#first_span{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    margin: 5px;
+}
+
+#first_span_video{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#first_span_content{
+    background-color: #6e6e6e;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#nike_span_head{
+    background-color: #00000000;
+    font-family: Roboto;
+    font-weight: 1200;
+    color: white;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+#nike_para{
+    background-color: #00000000;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    opacity: 0.4;
+}
+
+#second_span{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 450px;
+}
+
+#second_span_poster{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#sub_second_span{
+    display: flex;
+    width: 330px;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#sub_span_time{
+    width: 100px;
+    border-radius: 15px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#attack_time{
+    color: white;
+    font-family: Roboto;
+    background-color: #161616;
+    font-weight: 1500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#swoosh_time{
+    background-color: #161616;
+}
+
+#second_sub_span_poster{
+    background-image: url(res/Nike_Posters/nike_poster.jpeg);
+    border-radius: 15px;
+    background-size: cover;
+    width: 230px;
+    margin-left: 5px;
+}
+
+#third_span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 200px;
+    height: 450px;
+}
+
+#just_do_it_span{
+    background-color: #181818;
+    border-radius: 15px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#just_do_it_head{
+    font-family: Bangers;
+    color: white;
+    background-color: #00000000;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#jordans_list{
+    background-color: #828282;
+    border-radius: 15px;
+    display: inline-block;
+    height: 350px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#jordans_list_head{
+    font-family: Roboto;
+    font-size: 27px;
+    background-color: #00000000;
+    color: white;
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+#list_name_jordan{
+    background-color: #00000000;
+    color: white;
+}
+
+.jordans{
+    background-color: #00000000;
+    color: white;
+    margin: 1.5px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.4;
+}
+
+#fourth_span, #fifth_span{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 450px;
+    margin-left: 5px;
+}
+
+#sub_fourth_span{
+    background-image: url(res/Nike_Posters/grid_poster/4.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#sub_fourth_span_two{
+    background-image: url(res/Nike_Posters/grid_poster/2.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+}
+
+#fifth_span_sub{
+    background-image: url(res/Nike_Posters/grid_poster/3.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#fifth_span_sub_two{
+    background-image: url(res/Nike_Posters/grid_poster/1.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+}
+
+#span_para{
+    max-width: 350px;
+    height: auto;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b3b3ba0;
+    border-radius: 15px;
+}
+
+#just_head{
+    font-family: Roboto;
+    color: white;
+    font-weight: 1500;
+    font-size: 35px;
+    opacity: 0.7;
+    background-color: #00000000;
+}
+
+#just_para{
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    background-color: #00000000;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+#jordan{
+    transform: rotate(-30deg);
+    width: 190px;
+    margin-left: -40px;
+    background-color: #00000000;
+}
+
+#span_para_two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#jordan_two{
+    transform: rotate(30deg) scaleX(-1);
+    width: 190px;
+    height: max-content;
+    margin-right: -35px;
+    background-color: #00000000;
+}
+
+#jordan_para{
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: right;
+    background-color: #00000000;
+}
+
+#jordan_head{
+    font-family: Roboto;
+    color: white;
+    font-weight: 1500;
+    font-size: 35px;
+    background-color: #00000000;
+    opacity: 0.7;
+    text-align: right;
+}
+
+#footer_swoosh{
+    width: 30px;
+    height: fit-content;
+    background-color: #00000000;
+    filter: invert();
+}
+
+.footer_text{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 13px;
+    color: black;
+    background-color: #00000000;
+}
+
+
